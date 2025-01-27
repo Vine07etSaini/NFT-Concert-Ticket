@@ -1,0 +1,61 @@
+/* General navbar styling */
+.custom-navbar {
+  background-color: black; /* Navbar background color */
+  padding: 1rem;
+  font-family: 'Orbitron', sans-serif; /* Applying the Orbitron font to the navbar */
+}
+
+/* Brand and link default colors */
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: blue; /* Changed default text color for brand and links to blue */
+}
+
+/* Active link color */
+.custom-navbar .nav-link.active {
+  color: blue; /* Changed "Home" link color by default to blue */
+}
+
+/* Hover effects for brand and links */
+.custom-navbar .navbar-brand:hover,
+.custom-navbar .nav-link:hover {
+  color: white; /* Text color on hover */
+}
+
+/* Dropdown menu styling */
+.custom-navbar .dropdown-menu {
+  background-color: black; /* Dropdown background matches navbar */
+  border: none; /* Remove border */
+}
+
+/* Dropdown item default and hover styling */
+.custom-navbar .dropdown-item {
+  color: blue; /* Changed default text color for dropdown items to blue */
+}
+
+.custom-navbar .dropdown-item:hover {
+  background-color: black; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
+
+/* Toggler button styling for mobile view */
+.custom-navbar .navbar-toggler {
+  border: 1px solid white; /* Toggler border color */
+}
+
+.custom-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFFFFF' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  /* White bars for toggler icon */
+}
+
+/* Search button styling */
+.custom-navbar .btn-outline-success {
+  color: blue; /* Changed default text color to blue */
+  border-color: blue; /* Changed border color to blue */
+}
+
+.custom-navbar .btn-outline-success:hover {
+  background-color: white; /* Background color on hover */
+  color: blue; /* Text color on hover */
+  border-color: white; /* Border color on hover */
+}

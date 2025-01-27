@@ -1,0 +1,75 @@
+/* General heading styling */
+/* Set the entire page background to black */
+body {
+  background-color: black; /* Set the page background to black */
+  color: white; /* Optional: set text color to white for contrast */
+  margin: 0; /* Remove default body margin */
+}
+
+/* Container for the heading */
+.heading-container {
+  background-color: black; /* Set background color to black */
+  padding: 20px; /* Optional: Add padding for spacing */
+  text-align: center; /* Center the heading */
+}
+
+/* Event heading styling */
+.event-heading {
+  font-family: 'Orbitron', sans-serif;
+  color: red;
+  font-weight: 700;
+  margin-top: 50px; /* Add margin on top to push the heading down */
+  margin-bottom: 20px;
+}
+
+/* Hover effect */
+.event-button:hover {
+  background-color: blue;
+  color: black;
+  box-shadow: 0 0 15px rgba(0, 0, 255, 0.6), 0 0 30px rgba(0, 0, 255, 0.5);
+}
+
+/* Event card grid container */
+.event-card-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background-color: black;
+  margin-bottom: 2rem;
+}
+
+/* Individual card styling */
+.event-card-grid .card {
+  flex: 1 1 300px;
+  margin: 0.5rem;
+  background-color: white;
+  color: black;
+  font-family: 'Arial', sans-serif;
+  border: none;
+}
+
+/* Card title styling */
+.event-card-grid .card-title {
+  font-family: 'Arial', sans-serif;
+  color: red;
+}
+
+/* Card text styling */
+.event-card-grid .card-text {
+  font-family: 'Arial', sans-serif;
+  color: black;
+}
+
+/* Adjusting the button text inside card */
+.event-card-grid .btn {
+  font-family: 'Arial', sans-serif;
+  color: blue;
+  border-color: blue;
+}
+
+.event-card-grid .btn:hover {
+  background-color: blue;
+  color: white;
+}
